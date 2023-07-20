@@ -16,7 +16,7 @@ Open `package.json` configuration file and change the test property's value as j
   
 ```
 
-## Test blocks, assertions and matchers
+## First test with Jest
 
 We will create a simple JavaScript function code for adding 2 numbers and write a corresponding Jest-based test for this function.
 
@@ -51,6 +51,22 @@ In this file we have a written test to add 2 numbers and verify the expected res
 `test` is a function requires two parameters : first one is a string to describe the test block, and second one is a callback function in which we wrapped our actual test.
 
 `expect` is a function requires a parameter, which is the function to be tested. Along with this function a matcher function `toBe` is used to check whether the calculation result of the function meets the expectations.
+
+### Run our first test
+
+Run the following command in your terminal to run our test file.
+
+```bash
+npm test sum.test.js
+```
+
+The above command run only our sum.test.js file. If we want to run all the test files, run the following command.
+
+```bash
+npm test
+```
+
+
 
 
 
