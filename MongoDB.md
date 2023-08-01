@@ -88,6 +88,7 @@ The following table shows the similar terminologies of RDBMS with MongoDB.
 <a name="DropDatabase"></a>
 ## Drop Database
 
+
 <a name="CreateCollection"></a>
 ## Create Collection
 
