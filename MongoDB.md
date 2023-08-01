@@ -90,7 +90,12 @@ The following table shows the similar terminologies of RDBMS with MongoDB.
 
 
 <a name="CreateCollection"></a>
-## Create Collection
+## The createCollection() Method
+MongoDB `db.createCollection(name)` is used to create collection.
+
+#### Syntax
+Basic syntax of createCollection() command is as follows --
+
 
 <a name="DropCollection"></a>
 ## Drop Collection
